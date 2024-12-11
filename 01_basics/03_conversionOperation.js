@@ -31,3 +31,44 @@ let score = "72"
 
 
 // In the same manner, we can convert a number/boolean into a string unsig String() function.
+
+
+// *************************OPERATIONS*******************************
+// let value = 3
+// let negvalue = -value
+// console.log(negvalue)
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**2)  // Gives 2^2
+// console.log(2/2)
+// console.log(2%2)
+
+
+// String concatenation 
+// let str1 = "hello"
+// let str2 = " Aniket"
+// let str3 = str1 + str2
+// console.log(str3);
+
+// console.log("1" + 2 + 3) gives 123 as the output whereas console.log(1 + 2 + "3") gives 33 as the output. This happens because the precedence is from left to right and if there is any operation bw string and number, then JavaScript converts the number into string and applies string concatenation bw them.
+
+// console.log(+true) gives 1 bcz + is unary operator, which converts the input into its number equivalent. There are other unary operators like -, ++, --, ! etc which has differnt operations. For more info refer chatgpt.
+// Similarly, console.log(+"") will give 0 as "" is cosidered as 0 after conversion.
+
+// let num1, num2, num3
+// num1 = num2 = num3 = 2+2
+// console.log(num1);
+// console.log(num2);
+// console.log(num3);
+// We can assign values like this but this is not considred a good practice bcz it reduces the readability of our code.
+
+// let x = 2
+// let y = x++
+// console.log(y, x);  // Output is 2 3 because of the postfix increment operator which assigns the current value of x to y and after assignment, it increases the value of x whereas in prefix increment operator, first the value is increased and then the increased value is assigned.
+
+
+
+
+
