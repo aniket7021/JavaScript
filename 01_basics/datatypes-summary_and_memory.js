@@ -67,7 +67,7 @@ const names = ["Aniket", "Kalyani", "Sagar"];
 // Stack memory is used for primitive data types and references to non-primitive types.
 // Heap memory is used for the actual data of non-primitive types like objects and arrays.
 
-// If we pass a value of one primitive datatype to another primitive datatype, then a copy os the value is passed and changing the value in the later will not affect the value in the previous one but when we pass one non primitive datatype to another non primitive datatype its reference is passed, and changing any attribute in teh later will also change the original entity.
+// If we pass a value of one primitive datatype to another primitive datatype, then a copy of the value is passed and changing the value in the later will not affect the value in the previous one but when we pass one non primitive datatype to another non primitive datatype its reference is passed, and changing any attribute in teh later will also change the original entity.
 
 // Example:--
 // let obj1 = {
