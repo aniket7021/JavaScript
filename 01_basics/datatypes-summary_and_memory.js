@@ -82,3 +82,4 @@ const names = ["Aniket", "Kalyani", "Sagar"];
 // console.log(obj2.age);  // 25
 
 // The object was stored in the heap and when we created obj2 and assigned obj2 = obj1, then taking the reference from the heap(where the value is actually stored) after changing the attribute through obj2, we saw that the original entity (obj1) got changed.
+
