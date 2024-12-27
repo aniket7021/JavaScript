@@ -11,7 +11,7 @@ let score = "72"
 // let valueInNumber = Number(s)
 // console.log(typeof valueInNumber)
 // console.log(valueInNumber);
-// then JavaScript converts the expression in number, but if we see the converted number then it states that is is NaN(Not a Number)
+// then JavaScript converts the expression in number, but if we see the converted number then it states that it is NaN(Not a Number)
 // NaN is a special numeric value in JavaScript used to represent invalid or undefined numeric operations.
 
 // On conversion of undefined into number using Number() function, it gets converted into number, but the converted number is NaN. Whereas null is converted to 0.
