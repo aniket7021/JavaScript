@@ -67,4 +67,38 @@ const obj3 = {5 : "a", 6 : "b"}
 // console.log(tinderUser.hasOwnProperty("isLoggedIn"))     // We are checking whether isLoggedIn is present or not.
 
 
+//*********************************** OBJECT DESTRUCTURING **********************************
+// Object destructuring is a feature in JavaScript that allows you to extract specific properties from an object and store them in variables using a concise syntax.
 
+// const person = {
+//     name: "Aniket",
+//     age: 22,
+//     city: "Kanpur"
+// };
+
+// const { name, age } = person;
+
+// console.log(name); // Output: Aniket
+// console.log(age);  // Output: 22
+
+// Instead of person.name and person.age, we can directly use name and age.
+// This destructuring we will mainly use in react.
+// Similarly, we can also use destructuring in array but that is rarely used.
+
+// Earlier, data from the backend was often sent in XML format, but now JSON (JavaScript Object Notation) has become the standard format for exchanging data between the frontend and backend.
+
+// JSON object:--
+// {
+//     "name" : "Aniket",
+//     "price" : "free",
+//     "email" : "aniket123@gmail.com"
+// }        // Right now this is giving an error but actually there is not any error. This JSON format is just like a JS object, without any name where the keys . Later, if required, we will store this in a variable.
+
+// It is not necessary that api response will always be in the form of an object but it could be an array of objects like:--
+[
+    {},
+    {},
+    {}
+]
+
+// When we do an api call, the JSON response that we get from the backend is not comprehensive to understand, for that we can use tools like json formatter
