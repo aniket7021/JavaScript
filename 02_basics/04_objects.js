@@ -101,4 +101,4 @@ const obj3 = {5 : "a", 6 : "b"}
     {}
 ]
 
-// When we do an api call, the JSON response that we get from the backend is not comprehensive to understand, for that we can use tools like json formatter
+// When we do an api call, the JSON response that we get from the backend is not comprehensive to understand, for that we can use tools like json formatterob

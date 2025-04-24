@@ -35,4 +35,3 @@ const dc_heroes = ["Superman", "Flash", "Batman"];
 // console.log(Array.of(score1, score2, score3))    // returns a new array from set of elements given in the argument.
 
 
-
