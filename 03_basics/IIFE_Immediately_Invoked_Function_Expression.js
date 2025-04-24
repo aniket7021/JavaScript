@@ -10,7 +10,7 @@
 
 // ✅ Defined as an expression,
 // ✅ And invoked immediately,
-// ✅ Without a separate name or reusable reference.
+// ✅ Without a separate name or reusable reference.(means that the name is local to the function itself and isn't available outside.)
 
 // One of the main reasons IIFEs (Immediately Invoked Function Expressions) became popular — especially before ES6 — was to avoid polluting the global scope.
 // An IIFE creates a new local scope, so any variables declared inside it stay private and don't leak into the global space.
@@ -27,6 +27,7 @@
 // }) ()
 // This is an example of IIFE.
 
+
 // If we write two IIFEs, one after another then we need to separate then using ; otherwise it will cause an error like stated below:--
 
 // (() => {
@@ -36,3 +37,7 @@
 // (() => {
 //     console.log("DB2 Finally Connected");
 // }) ()
+
+// ( (name) => {
+//     console.log(`He he he he, I am ${name}`);
+// }) ("Aniket")
